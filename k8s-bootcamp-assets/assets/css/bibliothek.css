@@ -1,0 +1,12 @@
+.o-list-bare {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.o-box {
+  padding: 2rem;
+}
+.badge {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
