@@ -1,0 +1,23 @@
+{
+  "name": "suchen-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "forever": "forever -w index.js",
+    "start": "node ."
+  },
+  "devDependencies": {
+    "forever": "^0.15.3",
+    "node-sass": "^4.5.3"
+  },
+  "dependencies": {
+    "elasticsearch": "^13.3.1",
+    "handlebars": "^4.0.8",
+    "hapi": "^16.1.1",
+    "inert": "^4.2.0",
+    "jaeger-client": "^3.5.3",
+    "opentracing": "^0.14.1",
+    "request": "^2.81.0",
+    "vision": "^4.1.1"
+  }
+}

@@ -1,0 +1,17 @@
+<div class="o-box">
+  <h1>Book Search</h1>
+
+  <iq-form data-target=".js-books">
+    <form action="{{uriPrefix}}/books">
+      <div class="input-group">
+        <input type="search" class="form-control" name="q" placeholder="Book..." />
+        <span class="input-group-btn">
+          <button class="btn btn-dark" type="submit">Suchen</button>
+        </span>
+      </div>
+    </form>
+  </iq-form>
+  <br/>
+
+  <div class="js-books"></div>
+</div>

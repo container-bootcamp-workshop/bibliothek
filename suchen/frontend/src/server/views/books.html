@@ -1,0 +1,13 @@
+<div class="o-box">
+  <h1>Books</h1>
+
+  <ul class="o-list-bare js-books">
+    {{#each books}}
+    <li>
+      <iq-embedded-link data-target="main">
+        <a href="/einbuchen/book/{{this.EventId}}">ISBN: {{this.Isbn}}</a>
+      </iq-embedded-link>
+    </li>
+    {{/each}}
+  </ul>
+</div>
